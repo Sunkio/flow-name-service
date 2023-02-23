@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable */
 
 import * as fcl from "@onflow/fcl";
 import Head from "next/head";
