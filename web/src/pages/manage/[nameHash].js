@@ -1,16 +1,16 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { useAuth } from "../../contexts/AuthContext";
+import { useAuth } from "../../../contexts/AuthContext";
 import * as fcl from "@onflow/fcl";
 import Head from "next/head";
-import Navbar from "../../components/Navbar";
-import { getDomainInfoByNameHash, getRentCost } from "../../flow/scripts";
+import Navbar from "../../../components/Navbar";
+import { getDomainInfoByNameHash, getRentCost } from "../../../flow/scripts";
 import styles from "../../styles/ManageDomain.module.css";
 import {
     renewDomain,
     updateAddressForDomain,
     updateBioForDomain,
-} from "../../flow/transactions";
+} from "../../../flow/transactions";
 
 // constant representing seconds per year
 const SECONDS_PER_YEAR = 365 * 24 * 60 * 60;
