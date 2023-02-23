@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+
 import * as fcl from "@onflow/fcl";
 import Head from "next/head";
 import Link from "next/link";
